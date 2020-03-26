@@ -133,6 +133,9 @@ a {
   box-shadow: none;
   outline: 0;
 }
+.botoes-intro {
+  margin-bottom: 60px;
+}
 /*intro*/
 
 .topo {
@@ -156,6 +159,7 @@ a {
   border-radius: 50%;
 }
 .jumbotron {
+  
   margin-bottom: 0px;
   background-color:#DDD4CB !important;
   color: #343638;
@@ -206,10 +210,14 @@ a {
 
 @media (min-width: 300px) { 
   .rounded-circle img {
-    margin-top: 80px;
+    margin-top: 50px;
     width: 200px;
     height: 200px;
   }
+  .botoes-intro {
+    margin-bottom: 30px;
+  }
+  
 }
 
 @media (min-width: 768px) { 

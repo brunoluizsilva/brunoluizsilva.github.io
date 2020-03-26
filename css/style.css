@@ -208,14 +208,14 @@ a {
   color: #C27270 !important;
 }
 
-@media (min-width: 300px) { 
+@media (min-width: 300px) and (max-width: 768px) { 
   .rounded-circle img {
     margin-top: 50px;
     width: 200px;
     height: 200px;
   }
-  .botoes-intro {
-    margin-bottom: 30px;
+  .jumbotron {
+    padding-bottom: 60px;
   }
   
 }

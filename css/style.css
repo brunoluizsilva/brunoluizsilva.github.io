@@ -252,6 +252,18 @@ a {
     font-size: 1rem;
   }
 }
+
+@media(max-width: 767px) {
+  .intro h1 {
+    font-size: 1.75em;
+  }
+  .redes {
+    padding: 5px;
+  }
+  .botoes-intro a {
+    font-size: 1em;
+  }
+}
 /*SOBRE*/
 
 #sobre {
